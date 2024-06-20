@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudViswakarma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00b2e9f8b6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="logo.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-regular fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p></p>
+                <!-- <h1>Hi, I'm <span>SAI</span> <br>from India</h1> -->
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user2.jpg">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Pinapathruni Saikiran, a seasoned professional with a passion for navigating the intricate realms of AWS, DevOps and Kubernetes.
+                        Over the past 4 years, I've immersed myself in the dynamic landscape of cloud computing and orchestration, sculpting solutions that harmonize efficiency and innovation.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AWS</span></li>
+                            <li><span>DevOps</span></li>
+                            <li><span>Kubernetes</span></li>
+                            <li><span>Bash Scripting</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>With four years of experience, I excel as a Senior Consultant, focusing on microservices projects, driving excellence and innovation. As a Senior Engineer, AWS and DevOps specialist, I orchestrate robust solutions, leveraging automation for scalability. My role involves precise management, ensuring seamless and scalable cloud operations. My expertise spans AWS services, optimizing performance and cost efficiency.</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Masters from Andhra University in Remote Sensing</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    --services--    -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-cloud"></i>
+                    <h2>AWS</h2>
+                    <p>Join us in mastering AWS and shaping the future of cloud technology. Let's elevate your skills and unlock new possibilities in the world of cloud computing! Click on course details to view the Syllabus</p>
+                    <!-- View link -->
+                    <a href="AWS Course Syllabus.pdf" target="_blank" class="btn btn1">Syllabus </a>
+                    <!-- <a href="https://my-classes-bucket.s3.amazonaws.com/AWS+Course+Syllabus.docx">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fas fa-cogs"></i>
+
+                    <h2>DevOps</h2>
+                    <p>DevOps is not just a set of practices; it's a philosophy that revolutionizes the way we deliver software. Let's break barriers, embrace change, and together, let's build a future where agility and innovation. Click on Learn more to view the Syllabus</p>
+                    <a href="DevOps Course Syllabus.pdf" target="_blank" class="btn btn1">Syllabus </a>
+                    <!-- <a href="https://my-classes-bucket.s3.amazonaws.com/DevOps+Course+Syllabus.docx">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fas fa-cube"></i>
+
+                    <h2>Kubernetes</h2>
+                    <p>K8s, is a powerful open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. Click on Learn more to view the Syllabus </p>
+                    <a href="kubernetes Course Syllabus.pdf" target="_blank" class="btn btn1">Syllabus </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--       Protfolio            -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="database1.jpg">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Navigating through this portfolio is a glimpse into a world shaped by passion, skills, and a touch of AWS magic. the infrastructure that supports this showcase is orchestrated with the prowess of Amazon Web Services (AWS) and the seamless navigation is made possible through the reliable Route 53.</p>
+                        <a href="https://www.saikiranpi.in/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="web3.jpg">
+                    <div class="layer">
+                        <h3>microservices</h3>
+                        <p> a symphony of microservices meticulously crafted to bring agility, scalability, and efficiency. Each microservice encapsulates a specific business functionality, fostering modularity and enabling rapid development and deployment.
+                        </p>
+                        <a
+
+ href="https://medium.com/p/ce4ccb09ac17"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="design1.jpg">
+                    <div class="layer">
+                        <h3>Terraform Modules</h3>
+                        <p>Experience the magic of Terraform as it weaves together the threads of infrastructure, seamlessly provisioning and managing each tier of this application. From networking to databases, every component is crafted with precision, simplifying the complexities of deployment.
+                        </p>
+                        <a href="https://github.com/saikiranpi/Terraform_Modules"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--          contact            -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>pinapathruni.saikiran@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9391598915</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/saikiranpi" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://medium.com/@pinapathrunisaikiran" target="_blank"><i class="fa-brands fa-medium"></i></a>
+                        <a href="https://www.linkedin.com/in/saikiran-p-a0243569/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://hub.docker.com/u/kiran2361993" target="_blank"><i class="fa-brands fa-docker"></i>
+                        </a>
+                    </div>
+                    <!-- <a href="cv.pdf" download class="btn btn2">Download CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="tel" name="Contact" placeholder="Your Contact" required>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Saikiran.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwDzpTlzBIB4RkukBfeKE2otXAE6Le2BLFFs5uKEE-nzhs4wzBMrqhsvOsV6R-jzDQXwg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
