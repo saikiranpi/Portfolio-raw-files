@@ -1,2 +1,6 @@
 # Portfolio-Raw-Files
-Portfolio-raw-files
+
+
+# PLEASE WATCH THE BELOW VIDEO FOR REFERENCE ON HOW TO DEPLOY YOUR OWN PORTFOLIO
+
+https://youtu.be/zPYVI6ciX_0?si=dQPLmS0va6eTnR2Q
